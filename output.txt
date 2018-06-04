@@ -1,0 +1,38 @@
+
+Liner Regression  [learning rate = 0.0001,training set size = 13000, batch size = 50, network depth = 0, number of weights = 7850]
+CPU time  :  19sec
+Accuracy : 0.916 , Precision : 0.9149774023881129 , Recall 0.9148157075626084 , F-Score : 0.9146354648230816
+
+
+Liner Regression  [learning rate = 0.0001,training set size = 13000, batch size = 50, network depth = 2, number of weights = 199210]
+CPU time  :  52sec
+Accuracy : 0.8872 , Precision : 0.8869897925170642 , Recall 0.8859966223176116 , F-Score : 0.8862599766223791
+
+
+Convolution layer with FC RelU layer [learning rate = 0.0001,training set size = 13000, batch size = 100, network depth = 2, number of weights = 1617738]
+CPU time  :  1131sec
+Accuracy : 0.99 , Precision : 0.9899702145149403 , Recall 0.9898848263046254 , F-Score : 0.9898976737011986
+
+
+Convolution layer with FC RelU layer [learning rate = 0.0001,training set size = 13000, batch size = 100, network depth = 3, number of weights = 3274634]
+CPU time  :  3642sec
+Accuracy : 0.9908 , Precision : 0.9907568192762535 , Recall 0.9906500804925026 , F-Score : 0.9906991226377866
+
+
+Convolution layer with FC RelU layer [learning rate = 0.0001,training set size = 13000, batch size = 50, network depth = 2, number of weights = 1617738]
+CPU time  :  656sec
+Accuracy : 0.9876 , Precision : 0.9875727945903918 , Recall 0.9875576559963873 , F-Score : 0.9875253078187486
+
+
+Convolution layer with FC RelU layer [learning rate = 0.0001,training set size = 13000, batch size = 50, network depth = 3, number of weights = 3274634]
+CPU time  :  1882sec
+Accuracy : 0.9899 , Precision : 0.9897752015528576 , Recall 0.9899835270076297 , F-Score : 0.9898633461790987
+
+#second time running Cnn with 2 layers and 100 batch size
+Convolution layer with FC RelU layer [learning rate = 0.0001,training set size = 13000, batch size = 100, network depth = 3, number of weights = 3274634]
+CPU time  :  3667sec
+Accuracy : 0.9919 , Precision : 0.9918501493958518 , Recall 0.9917474592470464 , F-Score : 0.9917892899348765
+
+we can see that as far as the suprior test score the Cnn with 2 layers and 100 batch size has the best results,
+ but running it takes twice the time as running the same network with a batch size of size 50
+
